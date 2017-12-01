@@ -45,6 +45,8 @@ splitText(text).then(function(txtSplitArray){
   return reverseArray(txtSplitArray)
 }).then(function(reversedArray){
   return joinArray(reversedArray)
+}).then(function(finalResult){
+  console.log(finalResult)
 }).catch(function(error){
   console.log("Error: " + error)})
 
