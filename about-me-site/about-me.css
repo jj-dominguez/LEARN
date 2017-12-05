@@ -20,12 +20,10 @@ html, body {
 
 /* adding background image, with background-size and not jQuery*/
 /*
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   background-image: url("images/mountain.jpg");*/
+
 }
 
 .cover-intro {
@@ -42,8 +40,6 @@ html, body {
 
 h2 {
   font-size: 70px;
-  transition: font-size 90px;
-  transition-delay: 1s;
   padding: 0px;
   margin:0px;
 }
@@ -65,7 +61,8 @@ h4 {
 }
 
 .all-content {
-  padding: 50px;
+  padding: 30px;
+  background-image: url("/images/wide.jpg");
 }
 
 #jd_pic {
@@ -75,9 +72,7 @@ h4 {
   padding: 40px;
 }
 
-#top_content{
-  display: block;
-}
+
 
 #intro_p{
   font-size: 20px;
@@ -116,7 +111,7 @@ footer a{
 
 footer p{
   display:inline-block;
-  padding: 0px 10px 0px 10px;
+  padding: 1.5px 10px 1.5px 10px;
 }
 
 #contact_footer{
@@ -125,4 +120,8 @@ footer p{
 
 .clear{
   clear: both;
+}
+
+#life_info{
+  padding: 20px;
 }
