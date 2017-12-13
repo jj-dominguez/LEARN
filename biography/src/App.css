@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 3.5s linear;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.images{
+  height: 200px;
+  display: inline-block;
+}
+
+#nameText{
+  margin-top:20px;
+  font-weight: 700;
+}
+
+.globe {
+/*  animation: Globe-spin infinite 20s linear;
+*/  height: 200px;
+  margin-top: 40px;
+}
+
+#introText {
+  font-style:italic;
+}
+
+#placesText{
+  margin-top:15px;
+  font-weight: 550;
+  font-style: italic;
+}
+
+.travelText{
+  margin-top: 15px;
+  font-weight:300;
+}
+
+
+@keyframes App-logo-spin {
+  0%   { transform: rotate(0deg); }
+  25% { transform: rotate(30deg); }
+  50% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.cardBody{
+  background-color:#303030;
+  color: white;
+}
+
+.card .card-text {
+     color: white;
+}
+
+/*@keyframes Globe-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}*/
+
+hr{
+  border-width:2px;
+}
+
+
