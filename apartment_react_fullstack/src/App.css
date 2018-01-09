@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display:inline-block;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.thumbnails{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.thumbnails:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
